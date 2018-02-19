@@ -1,8 +1,10 @@
-#thymelea模板配置
 spring:
+  profiles:
+    active: dev
   application:
     name: blog-web
 
+  #thymeleaf模板配置
   thymeleaf:
     prefix: classpath:/templates/
     suffix: .html
@@ -11,12 +13,20 @@ spring:
     content-type: text/html
     cache: false
 
+  # 静态资源策略
   resources:
     chain:
       strategy:
         content:
           enabled: true
           paths: /**
+
+#Logging 配置
+logging:
+  path: /home/logs/blog-web/
+  file: blog-web.log
+  level:
+    cn.newtouch.kiseki.web: INFO
 
 server:
   port: 21080
