@@ -1,0 +1,22 @@
+#thymelea模板配置
+spring:
+  application:
+    name: blog-web
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: LEGACYHTML5 #使用非严格意义的HTML5, 需要添加NekoHTML库
+    encoding: UTF-8
+    content-type: text/html
+    cache: false
+
+  resources:
+    chain:
+      strategy:
+        content:
+          enabled: true
+          paths: /**
+
+server:
+  port: 21080
