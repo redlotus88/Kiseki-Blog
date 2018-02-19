@@ -1,8 +1,9 @@
-package main.java.cn.newtouch.kiseki.web;
+package cn.newtouch.kiseki.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.ComponentScans;
 
 /**
  * Created by dragon on 2018/2/14.
