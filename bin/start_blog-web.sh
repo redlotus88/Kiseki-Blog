@@ -26,6 +26,7 @@ start(){
     echo "${APP_NAME} is already running. pid=${pid} ."
   else
     nohup java -jar $APP_NAME > /dev/null 2>&1 &
+  fi
 }
 
 #停止方法
