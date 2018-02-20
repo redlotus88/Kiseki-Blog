@@ -18,4 +18,10 @@ public class IndexController {
         LOGGER.info("登录index界面");
         return "index";
     }
+
+    @RequestMapping("/about")
+    public String about() {
+        LOGGER.info("访问关于页面");
+        return "about";
+    }
 }
