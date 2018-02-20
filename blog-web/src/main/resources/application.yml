@@ -15,6 +15,7 @@ spring:
 
   # 静态资源策略
   resources:
+    static-locations: classpath:/static/
     chain:
       strategy:
         content:
