@@ -24,8 +24,7 @@ spring:
 
 #Logging 配置
 logging:
-  path: /home/logs/blog-web/
-  file: blog-web.log
+  file: ./logs/blog-web.log
   level:
     cn.newtouch.kiseki.web: INFO
 

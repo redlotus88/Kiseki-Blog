@@ -12,7 +12,7 @@
     <groupId>cn.rdlts</groupId>
     <artifactId>blog-web</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <build>
         <plugins>
@@ -42,13 +42,6 @@
             <groupId>nekohtml</groupId>
             <artifactId>nekohtml</artifactId>
             <version>1.9.6.2</version>
-        </dependency>
-
-        <!-- Spring boot 热重启 工具 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
         </dependency>
     </dependencies>
 </project>
